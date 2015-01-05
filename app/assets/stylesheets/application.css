@@ -1,0 +1,219 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+#logo { 
+    font-size: 20px;
+    font-family: &quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif;
+    float: left;
+    padding: 10px;
+}
+body { padding-top: 100px; }
+footer { margin-top: 100px; }
+table, td, th { vertical-align: middle !important; }
+th { border-bottom: 1px solid #DDD !important; }
+td.picture { width: 140px; }
+td.picture img { width: 140px; }
+
+/* Index */
+.pokemonList {
+	border: 1px solid #E3B468;
+	background-color: #F7D49C;
+}
+
+.pokemonList td {
+	border-top: 1px solid #D68654;
+	padding: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.pokemonList td:nth-of-type(2) div, .pokemonList td:nth-of-type(3) div {
+	width: 20px;
+	height: 12px;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 3px;
+}
+
+
+.pokemonList .plante {
+	background-color: #21C712;
+}
+
+.pokemonList .poison {
+	background-color: #C712A6;
+}
+
+.pokemonList .feu {
+	background-color: #F58516;
+}
+
+.pokemonList .eau {
+	background-color: #1686F5;
+}
+
+.pokemonList .vol {
+	background-color: #B4B4DB;
+}
+
+.pokemonList .normal {
+	background-color: #ACBDA2;
+}
+
+.pokemonList .D0E84A {
+	background-color: #ACBDA2;
+}
+
+.pokemonList .electrique {
+	background-color: #F7F30A;
+}
+
+.pokemonList .sol {
+	background-color: #EDD67B;
+}
+
+.pokemonList .roche {
+	background-color: #C7A932;
+}
+
+.pokemonList .acier {
+	background-color: #BFBFBF;
+}
+
+.pokemonList .psy {
+	background-color: #FF75A5;
+}
+
+.pokemonList .spectre {
+	background-color: #58517A;
+}
+
+.pokemonList .tenebre {
+	background-color: #403425;
+}
+
+.pokemonList .dragon {
+	background-color: #7B63FF;
+}
+
+.pokemonList .combat {
+	background-color: #BF4311;
+}
+
+.pokemonList .glace {
+	background-color: #ABF1F5;
+}
+
+.pokemonList .miniat {
+	width: 20px;
+	height: 20px;
+}
+
+/* Show */	
+.dataMain {
+
+}
+
+.dataMain .picture {
+	border: 1px solid black;
+	position: relative;
+	display: inline-block;
+}
+
+.dataMain .idCard {
+	border: 1px solid black;
+	position: relative;
+	display: inline-block
+}
+
+.dataMain .idCard .plante {
+	background-color: #21C712;
+}
+
+.dataMain .idCard .poison {
+	background-color: #C712A6;
+}
+
+.dataMain .idCard .feu {
+	background-color: #F58516;
+}
+
+.dataMain .idCard .eau {
+	background-color: #1686F5;
+}
+
+.dataMain .idCard .vol {
+	background-color: #B4B4DB;
+}
+
+.dataMain .idCard .normal {
+	background-color: #ACBDA2;
+}
+
+.dataMain .idCard .D0E84A {
+	background-color: #ACBDA2;
+}
+
+.dataMain .idCard .electrique {
+	background-color: #F7F30A;
+}
+
+.dataMain .idCard .sol {
+	background-color: #EDD67B;
+}
+
+.dataMain .idCard .roche {
+	background-color: #C7A932;
+}
+
+.dataMain .idCard .acier {
+	background-color: #BFBFBF;
+}
+
+.dataMain .idCard .psy {
+	background-color: #FF75A5;
+}
+
+.dataMain .idCard .spectre {
+	background-color: #58517A;
+}
+
+.dataMain .idCard .tenebre {
+	background-color: #403425;
+}
+
+.dataMain .idCard .dragon {
+	background-color: #7B63FF;
+}
+
+.dataMain .idCard .combat {
+	background-color: #BF4311;
+}
+
+.dataMain .idCard .glace {
+	background-color: #ABF1F5;
+}
+
+
+
+
+
+
+
+
+
+

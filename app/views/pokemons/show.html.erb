@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<table>
+	<article class = "dataMain">
+		<article class = "picture">
+			<p>
+			  <%= image_tag(@pokemon.picture_url, :width => 215) if @pokemon.picture.present? %>
+			</p>
+		</article>
+		<article class = "idCard">
+			<p>
+			  <%= @pokemon.name %>
+			</p>
+			<p class = "<%= @pokemon.type1 %>">
+			  <%= @pokemon.type1 %>
+			</p>
+			<p class = "<%= @pokemon.type2 %>">
+			  <%= @pokemon.type2 %>
+			</p>
+		</article>
+	</article>
+</table>
+<%= link_to 'Modifier', edit_pokemon_path(@pokemon) %> |
+<%= link_to 'Retour', pokemons_path %>

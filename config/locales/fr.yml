@@ -1,0 +1,10 @@
+﻿fr:
+  helpers:
+    submit:
+      create: "Créer"
+      update: "Modifier"
+      delete: "Supprimer"
+    pokemon:
+      create: "Créer le Pokémon"
+      update: "Modifier le Pokémon"
+      delete: "Supprimer le Pokémon"
