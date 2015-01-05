@@ -4,22 +4,20 @@
   <tbody>
 	<%
 	  require 'json'
-	  file = File.read("app/assets/json/pokedex2.json")
+	  #file = File.read("app/assets/json/pokedex2.json")
 	  #data = JSON.parse(file)
 	  #data = JSON.parse '[{ "x": "y" }]' # => {"x"=>"y"}
-	  data = [{"id"=>"001","nameFr"=>"Bulbizarre","nameUs"=>"Bulbasaur","nameJap"=>"Fushigidane","type1"=>"plante","type2"=>"poison","picture"=>"001.png"}]
-	%>
-	<p><%= data %></p>
-	<%  
-      #@pokemons.each do |pokemon|
-	  data.each do |pokemon|
+	  #data = JSON.parse '[{"num":"001","nameFr":"Bulbizarre","nameUs":"Bulbasaur","nameJap":"Fushigidane","type1":"plante","type2":"poison","picture":"001.png"}]'
+
+      @pokemons.each do |pokemon|
+	  #data.each do |pokemon|
 	  %>
       <tr>
-        <td><b><%= pokemon[:nameFr] %></b></td>
-        <td><div class = "<%= pokemon[:type1] %>"></div></td>
-        <td><div class = "<%= pokemon[:type2] %>"></div></td>
+        <td><b><%= pokemon.name %></b></td>
+        <td><div class = "<%= pokemon.type1 %>"></div></td>
+        <td><div class = "<%= pokemon.type2 %>"></div></td>
         <td>
-			<img class = 'miniat' src = "<%= pokemon[:picture] %>"></img>
+			<img class = 'miniat' src = "<%= pokemon.picture %>"></img>
 		</td>
         <td><%= link_to 'Voir', pokemon %></td>
         <td><%= link_to 'Modifier', edit_pokemon_path(pokemon) %></td>
